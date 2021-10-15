@@ -1,0 +1,27 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Gomez",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "description": "[How to create a Professional README](./readme-guide.md)",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briandgomez/C7-README-Generator.git"
+  },
+  "keywords": [
+    "README.md",
+    "Generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/briandgomez/C7-README-Generator/issues"
+  },
+  "homepage": "https://github.com/briandgomez/C7-README-Generator#readme"
+}
