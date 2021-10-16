@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+//Connects to generateMarkdown page(Object)
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -25,7 +26,7 @@ const questions = () => {
             {
                 type: 'input',
                 name: 'description',
-                message: 'Please write a short description of your project',
+                message: 'Please write a short description of your project:',
             },
             {
                 type: 'checkbox',
@@ -74,9 +75,10 @@ function writeToFile(content) {
 // TODO: Create a function to initialize app
 function init() {
     questions()
-        .then(data => {
-            console.log(data);
-            const readMeContent = generateMarkdown.generateMarkdown(data);
+        .then(input => {
+            //console.log(input);
+            //Specifically selects the generateMarkdown FUNCTION from the generateMarkdown PAGE
+            const readMeContent = generateMarkdown.generateMarkdown(input);
             writeToFile(readMeContent);
         })
 }
