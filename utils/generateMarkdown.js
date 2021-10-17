@@ -50,7 +50,6 @@ function generateMarkdown(input) {
   const { license, title, description, dependency, disclaimer, contribution, test, email, username } = input;
   return `
   # ${title}
-  ##
   ${renderLicenseBadge(license)}
   ## Description 
   ${description}
@@ -62,27 +61,27 @@ function generateMarkdown(input) {
   * [Questions](#questions)
   ## Installation
   To install dependencies, run the following command:
-  <br />
+  <br/>
   ${dependency}
   ## Usage
   ${disclaimer}
   ## License
   ${renderLicenseSection(license)}
-  <br />
+  <br/>
   ${renderLicenseLink(license)}
   ## Contributing
   ${contribution}
   ## Tests
   To run tests, use the following command:
-  <br />
+  <br/>
   ${test}
   ## Questions
   If you have any questions, concerns, or recommendations feel free to contact me through my email:
   <br />
   ${email}
-  <br />
+  <br/>
   You can also contribute to my other projects at:
-  <br />
+  <br/>
   https://github.com/${username}/
 `;
 }
