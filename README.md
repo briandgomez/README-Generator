@@ -1,9 +1,9 @@
 
-  # Weather App
+  # README Generator
   ##
-  ![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description 
-  Displays current and 5-day forecast for any city in the U.S.
+  This application allows users to create README files using the command line. It presents users with questions that a typical README file would contain such as the title of the application, licenses, etc. 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -15,13 +15,13 @@
   <br />
   npm install
   ## Usage
-  A saved button is dynamically created using jQuery for each city that is searched for
+  The repository can be cloned using SSH
   ## License
-  This applicaton is covered under the Boost license.
+  This applicaton is covered under the MIT license.
   <br />
-  (https://www.boost.org/LICENSE_1_0.txt)
+  (https://opensource.org/licenses/MIT)
   ## Contributing
-  Feel free to add any new features or modfiy the CSS
+  Users are allowed to add any additional questions and/or features
   ## Tests
   To run tests, use the following command:
   <br />
@@ -29,7 +29,7 @@
   ## Questions
   If you have any questions, concerns, or recommendations feel free to contact me through my email:
   <br />
-  briandgomez8@gmail.com
+  briandgomez98@gmail.com
   <br />
   You can also contribute to my other projects at:
   <br />
