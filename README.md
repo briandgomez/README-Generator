@@ -33,3 +33,5 @@
   You can also contribute to my other projects at:
   <br/>
   https://github.com/briandgomez/
+  ## Walkthrough
+  https://watch.screencastify.com/v/lrXifzrfmRMheaR8W9fc
